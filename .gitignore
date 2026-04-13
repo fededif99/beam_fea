@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+
+# Reports & Visualization
+**/*_images/
+examples/*.md
+!examples/README.md
+
+# Environment & Internal
+.agent/
+.gemini/
+.env
+.DS_Store
+visual_stress_tests/
+test_force_report_images/
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary & Patch Files
+*.patch
+*.diff
+*.log
+
+# Coverage & Testing
+.coverage
+htmlcov/
